@@ -23,8 +23,6 @@ export const ResultsContextProvider = ({ children }) => {
     setIsLoading(false)
   }
 
-  console.log("resulsts", results)
-
   return (
     <ResultsContext.Provider
       value={{ getResults, results, searchItem, setSearchItem, isLoading }}
